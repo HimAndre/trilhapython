@@ -1,0 +1,7 @@
+times_a = ("vasco", "flamengo","flu",)
+
+times_a[0]
+times_a[2]
+
+times_a[-1]
+times_a[-2]
