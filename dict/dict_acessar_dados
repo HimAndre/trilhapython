@@ -1,0 +1,11 @@
+crlv = {"nome": "Civic", "ano": 2008, "marca": "honda"}
+
+crlv["nome"] # "Civic"
+crlv["ano"] # 2008
+crlv["marca"] # "honda"
+
+crlv['nome'] = "Sonata"
+crlv["ano"] = 2014
+crlv["marca"] = "Huynday"
+
+#Estou inserindo informações novas.
