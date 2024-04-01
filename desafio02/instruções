@@ -1,0 +1,16 @@
+Desafio é preciso modular o código. criar varias funções para as operações: sacar, depositar e visualizar histórico.
+Além disso é necessário criar duas novas funções: criar usuário (cliente do banco) e criar conta corrente. (vincular com usuário)
+
+Saque deve receber argumentos apenas por nome (keyword_only). Sugestão de arg: saldo, valor, extrato, limite, numero_saque, limite_saques. Sugestão de retorno: saldo e extrato
+
+Depósito deve receber os argumento apenas por posição (positional only). Sugestão de argumetnos: saldo, valor, extrato. Sugestão de retorno: saldo e extrato.
+
+Extrato deve receber os argumentos por posição e nome( positional only e keyword_only). Argumentos posicionais: saldo, argumentos nomeados: extrato.
+
+Criar usuário (cliente)
+o progama deve armazenar os usuários em uma lista, um usuário é composto por: nome, data de nascimento, cpf, e endereço. o endereço é uma string com o formato : logradouro,numero, bairro, cidade/sigla estado. Deve ser armazenado somente os numeros do CPF. não podemos cadastrar 2 usuários com o msm CPF.
+
+Criar conta corrente
+O progama deve armarzenar contas em uma lista, uma conta é composta por: agência, número da conta e usuário. O número da conta é sequencial, iniciando em 1. O número da agência é fixo: ''0001''. O usuário pode ter mais de uma conta, mas pertence a somente um usuário. 
+
+tip: para vincular a uma conta, filtre a lista de usuários buscando o número do CPF informado para cada usuário da lista.
