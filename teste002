@@ -1,0 +1,12 @@
+print('Cadastre o carro')
+
+print('Coloque a marca do carro' marca = input("Marca"))
+
+modelo = input("modelo")
+
+ano  = input('ano')
+
+categoria = input('categoria')
+
+ano = input('ano')
+
